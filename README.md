@@ -36,7 +36,7 @@ __actions.csv__ contains the basic terminologies to classify the actions.
 
 **conv-rnn-model.h5** contains the saved keras model which is a Convolutional-Recurrent(LSTM) hybrid model
 
-![](https://github.com/Sanskar-jayale/Sign-Language-Interpreter/blob/main/model%20arch.jpeg)
+![](https://github.com/Sanskar-Jayale/Sign-Language-detection/blob/main/model%20arch.jpeg)
 
 The camera feed captures the video stream which is then passed to the mediapipe holistic network
 
@@ -45,7 +45,7 @@ The holistic network outputs an processed image consisting simultaneous pose, fa
 The keypoints from the processed results are extracted, which are then passed to the conv-rnn model to predict the meaning of the given sign.
 
 ### Flowchart
-![](https://github.com/Sanskar-jayale/Sign-Language-Interpreter/blob/main/flowchart.jpeg)
+![](https://github.com/Sanskar-Jayale/Sign-Language-detection/blob/main/flowchart.jpeg)
 
 
 
